@@ -2,6 +2,17 @@
 Here are some hackintosh branch startups
 
 
+##  Downloading macOS Big Sur
+
+from isoriver [click download](https://isoriver.com/download-your-file-now/?url=https://archive.org/download/macOS.11.BigSur/macOS.11.BigSur.dmg)
+
+## Create macOS **Big Sur** usb bootable
+```
+sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia \
+--volume /Volumes/MyVolume
+```
+
+
 ## Create EFI and Mounted
 
 ```
@@ -28,7 +39,7 @@ cp EFI-hackintash/efi /Volumes/efi/
  - Disable VT-D **
  - Enable XHCI Hand-off
  - Disable Legacy USB Support **
- - 10Disable USB Keyboard and Mouse Simulator **
+ - Disable USB Keyboard and Mouse Simulator **
 
 
 ## Troubleshooting
