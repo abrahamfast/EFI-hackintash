@@ -23,6 +23,12 @@ chmod +x MountEFI.command
 
 ## Copy EFI 
 
+Search EFI compatible with your hardware
+
+See [releases](https://github.com/abrahamfast/EFI-hackintash-decorative/releases)
+
+OR
+
 ```
 git clone https://github.com/abrahamfast/EFI-hackintash.git
 cp EFI-hackintash/efi /Volumes/efi/
@@ -42,7 +48,7 @@ cp EFI-hackintash/efi /Volumes/efi/
  - Disable USB Keyboard and Mouse Simulator **
 
 ## Restart PC then get boot menu
-press **F8** key go to efi boot
+Press **F8** key go to efi boot
 
 
 ## Troubleshooting and more information
