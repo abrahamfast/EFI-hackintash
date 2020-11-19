@@ -1,5 +1,5 @@
 # Welcome to EFI-hackintash decorative
-Here are some hackintosh branch startups
+Here are some EFI-hackintosh decorative branch.
 
 
 ##  Downloading macOS Big Sur
@@ -41,6 +41,9 @@ cp EFI-hackintash/efi /Volumes/efi/
  - Disable Legacy USB Support **
  - Disable USB Keyboard and Mouse Simulator **
 
+## Restart PC then get boot menu
+press **F8** key go to efi boot
 
-## Troubleshooting
-See [OPENCORE](https://dortania.github.io/troubleshooting/)
+
+## Troubleshooting and more information
+See [here](https://dortania.github.io/troubleshooting/)
